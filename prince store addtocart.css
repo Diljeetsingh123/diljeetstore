@@ -1,0 +1,17 @@
+.navbar{display: flex;justify-content: space-between;align-items: center;padding: 20px;}
+nav ul{display: inline-block;list-style: none;}
+nav ul li{display: inline-block;margin-right: 20px;font-size: 20px;}
+a{text-decoration: none;color: black;}
+/*--main--*/
+.cont{margin-left: 200px;margin-right: 200px;display: block;padding-top: 100px;}
+.col1{display:block;padding: 5px;}
+.box{display: flex;justify-content: space-between;background-color:white;}
+.inner{padding-top: 30px;text-align: center;}
+.rate{padding-top: 50px}
+.img{display: flex;}
+.text{text-align: left;}
+.text h3{text-transform: uppercase;font-size: 15px;}
+img{width: 100px;}
+.inner p{border: 1px solid black;padding:10px;}
+.text p{color: orangered;cursor: pointer;}
+

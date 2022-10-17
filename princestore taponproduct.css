@@ -1,0 +1,79 @@
+.navbar{display: flex;justify-content: space-between;align-items: center;padding: 20px;}
+nav ul{display: inline-block;list-style: none;}
+nav ul li{display: inline-block;margin-right: 20px;font-size: 20px;}
+a{text-decoration: none;color: black;}
+/*--main---*/
+.main{margin-left: 150px;margin-right: 100px;padding-top: 100px;}
+.row{display: flex;padding-top: 100px;padding: 20px;}
+.col1 .img1{
+    width: 400px;
+}
+ .col1 .smallimg{
+    display: block;
+}
+.smallimg img{
+    width: 80px;padding: 5px;
+}
+.col2{padding: 10px;display: block;}
+.size{display: inline-block;}
+.sizew{padding: 8px;}
+.addtocart{display: flex;padding-top: 20px;}
+.quantity{display: inline-block;padding: 20px;}
+.btn{border: 1px solid black;padding: 15px;align-items: center;display: inline-block;text-align: center;border-radius: 25px;max-height: 25px;background: #ff523b;transition: 0.5s;}
+.btn a{text-align: center;color:white;font-size: 15px;text-transform: uppercase;}
+.btn:hover{background: #563434;}
+.info h3{text-transform: uppercase;}
+.info p{color: gray;}
+.row2{display: flex;justify-content: space-between;padding-top: 50px;}
+.rs{text-align: center;text-transform: uppercase;}
+.col4{text-align: center;transition: 0.5s;}
+.col4 img:hover{transform: translateY(-5px);}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-top: 200px;
+}
+.footer p{
+    color: hsl(0, 0%, 54%);
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.container{
+    margin-left: 30px;margin-right: 30px;
+}
+.f1,.f2,.f3,.f4{
+    min-width: 250px;margin-bottom: 20px;
+}
+.f1{
+    flex-basis: 30%;
+    text-align: center;
+}
+.f2{
+    flex: 1;text-align: center;
+}
+.f3,.f4{
+    flex-basis: 12%;
+    text-align: center;
+}
+.f3 ul li ,.f4 ul li{
+    list-style: none;
+    transition: 0.5s;
+}
+.applogo{
+    margin-top: 20px;
+}
+.applogo img{
+    width: 140px;
+    background: black;
+}
+.f3 ul li a,.f4 ul li a{
+    color:#8a8a8a; cursor: pointer;transition: 0.5s;text-transform: uppercase;
+}
+.f3 ul li a:hover,.f4 ul li a:hover{
+    color: red;
+}
